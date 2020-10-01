@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicios_js</title>
+</head>
+
+<body>
+
+    <script>
+        
+        var nome = "Gilvan";
+        var pet = 2;
+        var cidade = "São Paulo";
+        var profissão = "Desenvolvedor";
+
+        var item1 = "Faca";
+        var item2 = "Isquiero";
+        var item3 = "Corda";
+
+        var animal = "Cachorro";
+
+        function pulaLinha(){
+            document.write("<br><br><br>");
+            }
+
+        function vidente () {
+            document.write ("A vidente prevê: " + nome + " terá " + pet + " pets e viverá em " + cidade + ",  trabalhando como " + profissão +".");
+            }
+
+        function ilhaDeserta () {
+            document.write ("Eu levaria para uma ilha deserta: uma " + item1 + ", " + item2 + " e " + item3 + ".");
+            }
+
+        function escolhaAnimal () {
+            document.write ("Num primeiro momento, eu gostaria de ser um " + animal);
+            animal = "Águia";
+
+            pulaLinha();
+
+            document.write ("Pensando melhor, prefiro ser um " + animal);
+            }
+
+            vidente();
+            pulaLinha();
+            ilhaDeserta();
+            pulaLinha();
+            escolhaAnimal();
+
+    </script>
+
+</body>
+</html>
