@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divisão das Laranjas</title>
+</head>
+
+<body>
+
+     <script>
+
+        function divisaoLaranja (quantidadeLaranjas, quantidadeVizinhos) {
+
+            var laranja = quantidadeLaranjas / (quantidadeVizinhos + 1)
+            
+            var sobra = quantidadeLaranjas - (Math.trunc(laranja) * quantidadeVizinhos)
+            
+            document.write("Olá Joselito, você pode dar " + Math.trunc(laranja) + " laranjas para seus vizinhos e ficar com " + sobra + " laranjas")
+            }
+
+            divisaoLaranja(10, 2)
+    </script>
+
+</body>
+</html>
